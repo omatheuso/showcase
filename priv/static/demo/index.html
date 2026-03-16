@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+    <body>
+        <!-- Missing alt — CI should catch this -->
+        <img src="cat.jpg" />
+
+        <!-- Missing alt — CI should catch this -->
+        <img src="photo.jpg" />
+
+        <!-- Empty alt — CI should catch this too -->
+        <img src="bridge.png" alt="" />
+
+        <!-- Already correct — CI ignores this -->
+        <img src="logo.svg" alt="Showcase App logo" />
+    </body>
+</html>
